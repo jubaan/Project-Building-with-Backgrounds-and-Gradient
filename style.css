@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font: normal 10px/12px 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #6e6e6e;
+}
+
+.main-container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  height: 698px;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.05)), url('https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg') 0 100% no-repeat;
+  background-size: 100%;
+}
+
+/* Navbar */
+
+.flex-nav {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 90px;
+  transform: scaleY(-1);
+}
+
+.menu-button-start {
+  background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav.png') 0 0 no-repeat;
+  width: 102px;
+  height: 36px;
+  border: none;
+}
+
+.menu-button {
+  background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav.png') 100% 0 no-repeat;
+  width: 102px;
+  height: 36px;
+  border: none;
+}
+
+.menu-button-search {
+  background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalsearch_bg.png') top no-repeat;
+  width: 164px;
+  height: 36px;
+  border: none;
+}
+
+.search-bar {
+  background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalsearch_field.png') 50% 0 no-repeat;
+  width: 164px;
+  height: 20px;
+  border: none;
+  margin-top: 7px;
+  transform: scaleY(-1);
+}
+
+#search-input {
+  color: white;
+  background-color: transparent;
+  border: none;
+  margin-top: 3px;
+  margin-left: 40px;
+  width: 102px;
+}
+
+.menu-button-start:hover,
+.menu-button:hover {
+  background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav.png') 100% 50% no-repeat;
+}
+
+.apple-logo {
+  background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') top no-repeat;
+  width: 100%;
+  height: 100%;
+  margin-top: -5px;
+  transform: scaleY(-1);
+}
+
+.store {
+  background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') 0 30% no-repeat;
+  width: 100%;
+  height: 100%;
+  margin-top: -5px;
+  margin-left: -30px;
+  transform: scaleY(-1);
+}
+
+.mac {
+  background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') 0 15% no-repeat;
+  width: 100%;
+  height: 100%;
+  margin-top: -5px;
+  margin-left: -30px;
+  transform: scaleY(-1);
+}
+
+.ipod {
+  background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') 0 45% no-repeat;
+  width: 100%;
+  height: 100%;
+  margin-top: -6px;
+  margin-left: -30px;
+  transform: scaleY(-1);
+}
+
+.iphone {
+  background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') 0 60% no-repeat;
+  width: 100%;
+  height: 100%;
+  margin-top: -7px;
+  margin-left: -30px;
+  transform: scaleY(-1);
+}
+
+.ipad {
+  background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') 0 75% no-repeat;
+  width: 100%;
+  height: 100%;
+  margin-top: -8px;
+  margin-left: -30px;
+  transform: scaleY(-1);
+}
+
+.itunes {
+  background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') 0 90% no-repeat;
+  width: 100%;
+  height: 100%;
+  margin-top: -8px;
+  margin-left: -30px;
+  transform: scaleY(-1);
+}
+
+.support {
+  background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') 0 105% no-repeat;
+  width: 100%;
+  height: 100%;
+  margin-top: -8px;
+  margin-left: -30px;
+  transform: scaleY(-1);
+}
+
+/* END ---------- Navbar */
+
+/* Text images */
+
+.text-section {
+  width: 980px;
+  margin: 0 auto;
+  margin-top: 115px;
+}
+
+.what-will {
+  width: 980px;
+  height: 112px;
+}
+
+.everyone-has {
+  margin-top: -29px;
+  width: 980px;
+  height: 86px;
+}
+
+.watch-the {
+  margin-top: 20px;
+  background: transparent url('https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/cta_your_verse_27pt.png') top no-repeat;
+  width: 980px;
+  height: 32px;
+}
+
+.watch-the:hover {
+  background: transparent url('https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/cta_your_verse_27pt.png') bottom no-repeat;
+}
+
+/* END ---------- Text images */
+
+.img-box-menu { width: 100%; }
+
+li { display: inline-block; }
+
+.img-box {
+  position: relative;
+  width: 357.64px;
+  height: 197.8;
+  margin-top: 2px;
+}
+
+.footer {
+  width: 980px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+.firstline-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+
+.icon-flag {
+  width: 16px;
+  height: 16px;
+  margin-left: 3px;
+}
+
+a { color: #08c; }
+
+a:hover { text-decoration: underline; }
+
+.link {
+  margin: 0 3px;
+  padding-right: 5px;
+  border-right: 1px solid #ccc;
+}
+
+.last-element { border-right: none; }
+
+.flex-container {
+  display: flex;
+  align-items: center;
+}
